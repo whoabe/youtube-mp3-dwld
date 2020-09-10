@@ -25,3 +25,10 @@ ffmpeg converts the selected file
    - `$ python downloader.py`
    - #paste the youtube video URL
 ```
+
+**Output File Location**
+
+```python
+    SAVE_PATH = '/'.join(os.path.abspath(
+    'C:/Users/<$USERNAME>/Music/').split('/')[:3])
+```
